@@ -1,0 +1,209 @@
+/**************html body css start*************/
+.div-body {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #f4f4f4;
+  -webkit-box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.5);
+}
+
+body {
+  background: #ccc url("../images/fishbackground.png") repeat;
+  font-family: "SolaimanLipi", sans-serif;
+  font-size: 18px;
+  color: #6c757d;
+}
+
+a {
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/******************html body css end******************/
+/*******************top-bar CSS Start*******************/
+.top-bar {
+  background: #002e5b;
+  padding: 7px 1%;
+}
+
+.top-bar .sitelogo a,
+.top-bar .social-part a {
+  color: #fff;
+  opacity: 0.8;
+  padding: 0px;
+}
+
+.top-bar .sitelogo a:hover,
+.top-bar .social-part a:hover {
+  opacity: 1;
+}
+
+.top-bar .social-part a:hover {
+  padding-left: 5px;
+}
+
+.top-bar .sitelogo {
+  text-align: left;
+}
+
+.top-bar .social-part {
+  text-align: right;
+  float: right;
+}
+
+.social-part .icon {
+  color: #fff;
+  position: relative;
+  text-align: right;
+  padding-left: 10px;
+}
+
+/*******************top-bar end********************/
+
+/************************Footer CSS Start*********************/
+.card-body {
+  padding: 5px 10px 0px 10px;
+}
+
+.overflow {
+  position: relative;
+  overflow-x: hidden;
+}
+
+.site-footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 5em 0;
+  background: #002e5b;
+  padding: 5px;
+}
+
+.site-footer a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0px 10px;
+}
+
+.site-footer a:hover {
+  opacity: 0.8;
+  padding: 0px 13px;
+}
+
+.site-footer p {
+  color: #000000;
+  font-size: 14px;
+  margin: 0px;
+}
+
+.card-img {
+  max-width: 130px;
+}
+
+#footer-card .no-gutters {
+  padding: 5px;
+}
+/************************Footer CSS End*********************/
+/*social footer*/
+.container-fluid {
+  padding: 20px 0px 0px;
+}
+
+/******************/
+
+#about h1 {
+  color: #11999e;
+  font-family: "Sacramento", cursive;
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+}
+
+#about {
+  padding: 0px 15px;
+}
+
+#about h2 {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: lighter;
+}
+
+#about h3 {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+
+.skills {
+  background-color: #b2ebf2;
+  padding: 50px 0px;
+}
+
+#about p {
+  line-height: 2;
+}
+
+#about .top-container {
+  background-color: #b2ebf2;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.profile {
+  padding: 65px 10px;
+}
+
+.profile-pic {
+  border-radius: 150px;
+  width: 20%;
+}
+
+.intro {
+  width: 50%;
+  margin: auto;
+}
+
+.skill-aq {
+  width: 55%;
+  margin: 70px auto 100px auto;
+  text-align: left;
+}
+
+.skill-wd {
+  width: 55%;
+  margin: 0px auto;
+  text-align: left;
+}
+
+.aquaculture {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.webdev {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 18%;
+  top: 10%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 15%;
+  right: 18%;
+  bottom: 10%;
+}
